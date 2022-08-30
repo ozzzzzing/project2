@@ -1,0 +1,595 @@
+/* -------------------------------------- contents */
+#contents {
+  /* border: 1px dashed rgb(255, 185, 185); */
+  padding-top: 60px;
+  padding-bottom: 60px;
+  height: 100vh;
+}
+
+
+/* -------------------------------------- first page */
+#splash-body {
+  background-color: #ffb546;
+  height: 100vh;
+}
+.splash {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -57%);
+}
+.splash img {
+  width: 100%;
+  height: auto;
+}
+.splash h4 {
+  font-size: 0.8em;
+  color: #1a1a1a;
+  word-spacing: 15px;
+}
+
+.just {
+  position: absolute;
+  color:#462411;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.5em;
+}
+
+/* -------------------------------------- main) home */
+
+.homeWrap > div {
+  margin-bottom: 15px;
+}
+
+.locationAnimal {
+  margin: 15px;
+  padding: 10px;
+  box-shadow: 0 0 5px 0 rgba(128, 128, 128, 0.384);
+}
+.locationAnimal img {
+  width: 100%;
+  object-fit: cover
+}
+
+.whatIsAniwhere {
+  height: 800px;
+  width: 100%;
+  background: url('/client/file/home03_aniwhere.jpg') center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.whatIsAniwhere div {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 500;
+  padding-top: 200px;
+  padding-bottom: 80px;
+}
+
+.howToUse {
+  margin: 15px;
+  padding: 10px;
+  box-shadow: 0 0 5px 0 rgba(128, 128, 128, 0.384);
+}
+.howToUse img {
+  width: 100%;
+  object-fit: cover
+} 
+.partners img {
+  height: 50px;
+}
+
+.imgEx {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+
+
+
+
+
+/* -------------------------------------- map) aniwhere */
+.overFlow {
+    overflow: hidden;
+}
+#allmap{
+position: fixed;
+z-index: 9;
+width: 100%;
+height: 80%;
+background: #fff ;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#allmap img{
+width: 320px;
+}
+/* map size */
+#location-map {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.pick-on {
+  border-color: #ffb546 !important;
+  background-color: #ffb546 !important;
+  color: #fff;
+}
+.course {
+  position: relative;
+  width: 23%;
+  text-align: center;
+  border-radius: 10px;
+  margin: 1%;
+  padding: 1vh 0;
+  background-color: white;
+}
+.stamp-wrap {
+  position: absolute;
+  right: -5%;
+  top: 0;
+  width: 40px;
+  /* height: 100%; */
+  z-index: 15;
+}
+.collection_btn {
+  display: flex;
+  flex-wrap: wrap;
+}
+#my-position {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 0.8em;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px 0 gray;
+  position: absolute;
+  bottom: 70px;
+  right: 3%;
+  z-index: 30;
+}
+
+/* -------------------------------------- certification */
+.certification {
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+}
+.certification li {
+  background-color: #ffb546;
+  color: white;
+  font-size: 1.5em;
+  width: 250px;
+  height: 80px;
+  text-align: center;
+  border-radius: 50px;
+  margin: 30px auto;
+}
+.certification li img {
+  height: auto;
+  width: 40px;
+  margin-right: 20px;
+}
+
+/* -------------------------------------- camera) qr */
+.qr-container {
+  position:relative;
+  z-index: -9;
+  width: 100%;
+}
+.wait-text {
+text-align: center;
+font-weight: bold;
+font-size: 20px;
+color: #ececec;
+}
+
+.canvas-wrap{
+overflow: hidden;
+}
+
+
+
+
+/* -------------------------------------- collection */
+.collection_subject {
+  padding-top: 30px;
+}
+.collection_book {
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -48%);
+}
+#counting {
+  position: relative;
+  width: 31%;
+  text-align: center;
+  margin: 1%;
+  /* padding: 1vh 0; */
+  padding-top: 10%;
+  background-color: white;
+}
+.success_btn {
+  color: white;
+  margin: 12px auto 0 auto;
+  padding: 7px 5px 5px 5px;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.off{
+  background-color: #c2c2c2;
+}
+.on{
+  background-color: #ffb546;
+
+}
+
+.animal {
+  position: relative;
+  width: 31%;
+  text-align: center;
+  border-radius: 10px;
+  margin: 1%;
+  padding: 1vh 0;
+  background-color: white;
+  box-shadow: 0 0 10px 0 rgba(139, 139, 139, 0.295);
+}
+.hide_img {
+  width: 100%;
+  height: auto;
+}
+.mark-wrap {
+  position: absolute;
+  width: 100%;
+  /* height: 100%; */
+  z-index: 15;
+}
+
+/* -------------------------------------- modal */
+.modal_dragon,
+.modal_monkey,
+.modal_sheep,
+.modal_dog,
+.modal_pig,
+.modal_rabbit,
+.modal_cat,
+.modal_hedgehog {
+  position: fixed;
+  /* 바탕의 스크롤을 막음 */
+  top: 0;
+  left: 0;
+  right: 0;
+
+  width: 100%;
+  height: 100%;
+
+  display: none;
+
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 40;
+}
+.modal_dragon.show,
+.modal_monkey.show,
+.modal_sheep.show,
+.modal_dog.show,
+.modal_pig.show,
+.modal_rabbit.show,
+.modal_cat.show,
+.modal_hedgehog.show,
+.modal_complete.show {
+  display: block;
+}
+
+.modal_body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 80%;
+  height: 300px;
+}
+.animal_voice {
+  color: #462411;
+  background-color: #fff5f5;
+  border-radius: 30px;
+  box-shadow: 0 0 5px 5px rgba(34, 36, 38, 0.138);
+  padding: 20px;
+  width: fit-content;
+
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-30%);
+}
+.animal_name {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 40;
+}
+.close_dragon,
+.close_monkey,
+.close_sheep,
+.close_dog,
+.close_pig,
+.close_rabbit,
+.close_cat,
+.close_hedgehog {
+  color: white;
+  border: none;
+  background-color: #ffb546;
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 0 5px 5px rgba(34, 36, 38, 0.138);
+  z-index: 40;
+}
+
+/* --------------------------------------------------- 모든 동물 만남~*/
+.modal_complete_body {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-60%);
+  width: 80%;
+  height: 300px;
+}
+.modal_complete {
+  position: fixed;
+  /* 바탕의 스크롤을 막음 */
+  top: 0;
+  left: 0;
+  right: 0;
+
+  width: 100%;
+  height: 100%;
+
+  display: none;
+
+  background: rgba(0, 0, 0, 0.644);
+  background-image: url("/client/file/collection_success.png");
+  background-position: center;
+  background-size: 100%;
+  z-index: 40;
+}
+.congratulations_message {
+  color: white;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.animal_complete_message {
+  color: #462411;
+  text-align: center;
+  background-color: #fff5f5;
+  border-radius: 30px;
+  box-shadow: 0 0 5px 5px rgba(34, 36, 38, 0.138);
+  padding: 30px 20px 70px 20px;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.support_reward:first-child {
+  color: white;
+  border: none;
+  background-color: #ffb546;
+  padding: 15px;
+  border-radius: 0 0 0 30px;
+  width: 50%;
+  left: 0;
+  position: absolute;
+  bottom: 0;
+  z-index: 40;
+}
+.support_reward:last-child {
+  color: white;
+  border: none;
+  background-color: #ffb546;
+  padding: 15px;
+  border-radius: 0 0 30px 0;
+  width: 50%;
+  right: 0;
+  position: absolute;
+  bottom: 0;
+  z-index: 40;
+  border-left: 1px solid #fff;
+}
+
+
+/* -------------------------------------- news) notice */
+.news {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #ececec;
+}
+.news_board li {
+  height: 60px;
+  padding: 10px 15px;
+  border-bottom: 1px solid #ececec;
+}
+.news_board li div {
+  font-family: "Noto Sans KR", sans-serif;
+  text-align: left;
+}
+.notice_date {
+  font-size: 0.5em;
+}
+
+/* -------------------------------------- side menu) navigation */
+html.open {
+  overflow: hidden;
+}
+.close {
+  position: absolute;
+  bottom: 20px;
+  right: 10%;
+  font-size: 0.8em;
+}
+#menu {
+  color: #462411;
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  right: -252px;
+  z-index: 30;
+  border: 1px solid #c9c9c9;
+  background-color: white;
+  transition: All 0.2s ease;
+  -webkit-transition: All 0.2s ease;
+  -moz-transition: All 0.2s ease;
+  -o-transition: All 0.2s ease;
+}
+#menu.open {
+  right: 0px;
+}
+.page_cover.open {
+  display: block;
+}
+.page_cover {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 25;
+  display: none;
+  /* transition: All 0.2s ease; */
+}
+.nav_top {
+  height: 60px;
+  background-color: #ececec;
+  text-align: center;
+  line-height: 60px;
+}
+.nav_li {
+  padding-left: 10px;
+  height: 48px;
+  /* line-height: 48px; */
+  border-bottom: 1px solid #ececec;
+  /* display: flex;
+    align-items: center; */
+}
+.nav_li img {
+  width: 24px;
+  height: auto;
+  margin-right: 10px;
+}
+.nav_li > a > div {
+  width: fit-content;
+}
+.signup {
+  font-size: 0.8em;
+  position: absolute;
+  bottom: 20px;
+  left: 10%;
+}
+
+/* -------------------------------------- header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  /* border-bottom: 1px solid gray; */
+  z-index: 20;
+  background-color: #ffb546;
+  text-align: center;
+  line-height: 60px;
+}
+header a > img {
+  vertical-align: middle;
+}
+
+/* -------------------------------------- footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  /* border-top: 1px solid gray; */
+  z-index: 20;
+  background-color: white;
+  box-shadow: 0 0 10px 0 #ececec;
+}
+
+footer > ul > li {
+  width: 25%;
+  height: 60px;
+}
+footer li svg {
+  fill: gray;
+}
+footer li.clicked svg {
+  fill: black;
+}
+
+
+/* -------------------------------------- qr 인증 */
+
+.pop_01cat {
+  height: 100vh;
+  background: url("/client/file/pop_01cat.png") bottom center;
+  background-size: cover;
+}
+
+.pop_cat_voice {
+  background: #fff5f5;
+  width: 80%;
+  padding: 20px;
+  border-radius: 30px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  box-shadow: 0 0 5px 5px rgba(34, 36, 38, 0.138);
+}
+
+.pop_cat_name {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 40;
+}
+.pop_close_cat {
+  color: white;
+  border: none;
+  background-color: #ffb546;
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 0 5px 5px rgba(34, 36, 38, 0.138);
+  z-index: 40;
+}

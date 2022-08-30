@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "jalnan";
+    src: url("/client/file/JalnanOTF.otf") format("truetype");
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "jalnan";
+}
+a {
+    text-decoration: none;
+    color: inherit; /* 부모의 속성을 상속받음 */
+}
+
+ul {
+    list-style: none;
+}

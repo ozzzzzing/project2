@@ -1,0 +1,39 @@
+.flex-c {
+    display: flex;
+    justify-content: center;
+}
+.flex-l {
+    display: flex;
+    align-items: center;
+}
+.flex-c-c {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.flex-c-c-c {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+
+.hidden {
+    display: none;
+}
+
+.h-100 {height: 100%;}
+.h-80 {height: 80%;}
+.h-70 {height: 70%;}
+.h-50{height: 50%;}
+.w-100 {width: 100%;}
+.w-80 {width: 80%;}
+.w-70 {width: 70%;}
+.w-50 {width: 50%;}
+.w-33 {width: 33.333%;}
+.w-25 {width: 25%;}
+.w-20 {width: 20%;}
+
+.text-c {
+    text-align: center;
+}
