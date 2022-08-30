@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인 화면</title>
+    <link rel="stylesheet" href="client/css/login.css">
+    <link rel="stylesheet" href="client/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="client/css/common.css">
+    <!-- 제이쿼리 연결 -->
+    <script src="client/js/jquery-3.6.0.js"></script>
+</head>
+<body>
+    <header>
+        <a href="#" onClick="history.back();"><img src="client/images/arrow_back.png" alt=""></a>
+    </header>
+    <section>
+        <div class="animal_img">
+            <img src="client/images/animals_splash.png" alt="">
+        </div>
+        <form id="login_all">
+            <div class="login">
+                <div class="id">
+                    <p>아이디</p>
+                    <input required class="info" type="text" placeholder="아이디를 입력하세요.">
+                </div>
+                <div class="ps">
+                    <p>비밀번호</p>
+                    <input required class="info" type="password" placeholder="비밀번호를 입력하세요.">
+                </div>
+            </div>
+            <div class="login_btn">
+                <button  id="modal-open">LOGIN</button>
+            </div>
+            <div class="lost_text"><a href="#">아이디/비밀번호를 잃어버리셨나용?</a></div>
+        </form>
+        <div class="signup_btn"><a href="/sign_up">회원가입</a></div>
+        <div class="sns_btn">
+            <a href=""><img src="client/images/icon/kakao.png" alt=""></a>
+            <a href=""><img src="client/images/icon/naver.png" alt=""></a>
+        </div>
+        <!-- 모달창 -->
+        <!-- 컨테이너 -->
+        <div class="container"> 
+            <!-- 모달을 감쌀 박스 -->
+            <div class="popup-wrap" id="popup"> 
+            <!-- 실질적 모달 팝업 -->
+            <div class="popup">	
+                <!-- 로고영역 -->
+                <div class="popup-head">
+                    <span class="head-title"></span>
+                </div>
+                <!-- 컨텐츠 영역 -->
+                <div class="popup-body">	
+                <div class="body-content">
+                    <div class="body-titlebox">
+                        <h1>abcde123님</h1>
+                    </div>
+                    <div class="body-contentbox">
+                        <p> 반가워요! </p>
+                    </div>
+                </div>
+                </div>
+                <!-- 푸터 버튼 영역 -->
+                    <div class="popup-foot"> 
+                        <span class="pop-btn confirm" id="confirm"><a href="/home">확인</a></span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            //   모달창
+            let tt=document.querySelectorAll(".info")
+            console.log(tt);
+            $(function(){
+                $("#modal-open").click(function(e){        
+                    if(tt[0].value==""|| tt[1].value==""){
+                    // alert("입력하시오.");
+                    return;
+                    }
+                    e.preventDefault();
+                    $("#popup").css('display','flex').hide().fadeIn();
+                    //팝업을 flex속성으로 바꿔준 후 hide()로 숨기고 다시 fadeIn()으로 효과
+                });
+                $("#confirm").click(function(){
+                    modalClose(); //모달 닫기 함수 호출
+                    location.reload();//창 닫으면 새로고침
+                    //컨펌 이벤트 처리
+                });
+                $("#close").click(function(){
+                    modalClose(); //모달 닫기 함수 호출
+                    location.reload();//창 닫으면 새로고침
+
+                });
+                function modalClose(){
+                    $("#popup").fadeOut(); //페이드아웃 효과
+                }
+                });
+        </script>
+</body>
+</html>

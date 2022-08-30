@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43" height="43" viewBox="0 0 43 43">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #572300;
+      }
+
+      .cls-3 {
+        fill: #ffb546;
+      }
+    </style>
+  </defs>
+  <g id="그룹_263" data-name="그룹 263" transform="translate(-158.083 -30.925)">
+    <path id="패스_108" data-name="패스 108" class="cls-1" d="M16.349,0h10.3A16.349,16.349,0,0,1,43,16.349v10.3A16.349,16.349,0,0,1,26.651,43h-10.3A16.349,16.349,0,0,1,0,26.651v-10.3A16.349,16.349,0,0,1,16.349,0Z" transform="translate(158.083 30.925)"/>
+    <g id="그룹_256" data-name="그룹 256" transform="translate(172.22 32.747)">
+      <ellipse id="타원_11" data-name="타원 11" class="cls-2" cx="3.051" cy="5.281" rx="3.051" ry="5.281" transform="translate(0 0)"/>
+      <ellipse id="타원_12" data-name="타원 12" class="cls-2" cx="2.934" cy="5.281" rx="2.934" ry="5.281" transform="translate(8.684 0)"/>
+    </g>
+    <g id="그룹_257" data-name="그룹 257" transform="translate(164.712 38.882)">
+      <ellipse id="타원_11-2" data-name="타원 11" class="cls-2" cx="2.934" cy="5.046" rx="2.934" ry="5.046" transform="translate(0 0)"/>
+      <ellipse id="타원_12-2" data-name="타원 12" class="cls-2" cx="2.817" cy="5.046" rx="2.817" ry="5.046" transform="translate(23.941 0)"/>
+    </g>
+    <path id="패스_107" data-name="패스 107" class="cls-2" d="M13.192,0c7.286,0,13.192,6.3,13.192,14.077S13.192,28.155,13.192,28.155,0,21.852,0,14.077,5.906,0,13.192,0Z" transform="translate(166.391 43.848)"/>
+    <path id="패스_110" data-name="패스 110" class="cls-3" d="M8.684,0A8.684,8.684,0,1,1,0,8.684,8.684,8.684,0,0,1,8.684,0Z" transform="translate(170.812 48.146)"/>
+  </g>
+</svg>
